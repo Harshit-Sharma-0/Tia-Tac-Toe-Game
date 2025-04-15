@@ -25,7 +25,7 @@ export function showPlayer2Form() {
   }
 }
 
-// When user submits player 2
+
 document.addEventListener("DOMContentLoaded", () => {
   const nextButton = document.getElementById("next-btn");
   if (nextButton) {
