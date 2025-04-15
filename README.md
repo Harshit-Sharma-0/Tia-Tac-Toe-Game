@@ -30,17 +30,14 @@ tic-tac-toe/
 │
 ├── index.html         # Main game interface
 ├── register.html      # Player registration form
-│
 ├── style.css          # Styling for the game board
 ├── style2.css         # Styling for the registration form
-│
 ├── my.js              # Game logic and winner detection
 ├── my2.js             # Handles player data and localStorage
-│
 ├── first.mp4          # Background video for the game screen
 ├── second.mp4         # Background video for the registration screen
-│
 └── README.md          # Project documentation
+
 
 
 ---
