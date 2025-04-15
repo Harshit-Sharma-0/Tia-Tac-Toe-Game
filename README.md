@@ -28,7 +28,8 @@ This project demonstrates localStorage usage, DOM manipulation, and modular JS p
 
 ## 📁 Project Structure
 
-
+tic-tac-toe/
+│
 ├── index.html            # Main game screen
 ├── register.html         # Player registration form
 │
@@ -41,6 +42,7 @@ This project demonstrates localStorage usage, DOM manipulation, and modular JS p
 ├── first.mp4             # Background video for game screen
 ├── second.mp4            # Background video for registration screen
 │
+└── README.md             # Project documentation
 
 
 
