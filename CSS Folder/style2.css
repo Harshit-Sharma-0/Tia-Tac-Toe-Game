@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 #myVideo {
-    position: fixed; /* Ensures video covers the screen */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100vw;
@@ -22,10 +22,10 @@ body {
     width: 80vh;
     height: 55vh;
     text-align: center;
-    position: fixed; /* Keep it fixed if you want it to stay in place */
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centers it */
+    transform: translate(-50%, -50%);
 }
 .form-group {
     margin-bottom: 20px;
@@ -66,7 +66,6 @@ h2{
 margin-top: -2vh;
 }
 
-/* Add this to STYLE2.CSS */
 #player2-form {
     display: none;
 }
