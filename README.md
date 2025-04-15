@@ -27,9 +27,7 @@ This project demonstrates localStorage usage, DOM manipulation, and modular JS p
 ---
 
 📦 tic-tac-toe
-├── 📄 index.html         # Main game interface
-├── 📄 register.html      # Player registration form
-├── 📄 style.css          # Styling for the game board
+├── 📄 index.html         # Main game interface├── 📄 register.html      # Player registration form├── 📄 style.css          # Styling for the game board
 ├── 📄 style2.css         # Styling for the registration form
 ├── 📄 my.js              # Game logic and winner detection
 ├── 📄 my2.js             # Handles player data and localStorage
