@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Registration Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="second.mp4" type="video/mp4">
+      </video>
+    <div class="container">
+        <h2>Player Registration</h2>
+        
+        <div id="player1-form">
+            <form>
+                <div class="form-group">
+                    <label for="player1">Player 1 Name:</label>
+                    <input type="text" id="player1" name="player1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="symbol1">Symbol:</label>
+                    <select id="symbol1" name="symbol1" required>
+                        <option value="X">X</option>
+                        <option value="O">O</option>
+                    </select>
+                </div>
+                <button type="button" id="next-btn">Next</button>
+            </form>
+        </div>
+        
+        <div id="player2-form">
+            <form>
+                <div class="form-group">
+                    <label for="player2">Player 2 Name:</label>
+                    <input type="text" id="player2" name="player2" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="symbol2">Symbol:</label>
+                    <select id="symbol2" name="symbol2" required>
+                        <option value="X">X</option>
+                        <option value="O">O</option>
+                    </select>
+                </div>
+                <button type="submit"><a href="./index.html" >Submit</a> </button>
+                
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="my2.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Poppins", "Segoe UI", sans-serif; 
+}
+
+#myVideo {
+    position: fixed; /* Ensures video covers the screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+
+#boxfo
+{
+   
+ text-align: center;
+}
+
+.text
+{
+    /* opacity: 0.4; */
+    color: #ffffff;
+    background-color: #333e49;
+    margin-left: 10vh;
+    border-radius: 3vh;
+    margin-right: 10vh;
+    text-align: center;
+    height: 10vh;
+    width: 45vh;
+    font-weight: 800;
+    font-size: 7vh;
+
+}
+
+
+
+.mainContainer
+{
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed; /* Keep it fixed if you want it to stay in place */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centers it */
+        width: 100vw;
+        height: 100vh;
+    
+    
+}
+
+
+.container
+{
+   
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 1.5vmin;
+    height: 60vmin;
+    width:60vmin;
+
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bt
+{
+    border-radius: 2vh;
+    border: none;
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    background-color: #bde5ff;
+box-shadow: 0 4px 8px rgba(102, 117, 119, 0.1);
+transition: transform 0.2s;
+color: #4e6f91;
+}
+
+ .bt:hover {
+
+    transform: scale(1.1);
+    /* Increases size by 10% */
+
+}
+
+.resetBt
+{
+    background-color: #191913;
+    opacity: 0.4;
+    font-size: 5.5vh;
+    width: 56vh;
+    height: 6vh;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}

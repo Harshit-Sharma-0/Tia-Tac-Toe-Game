@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#myVideo {
+    position: fixed; /* Ensures video covers the screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+.container {
+    
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 80vh;
+    height: 55vh;
+    text-align: center;
+    position: fixed; /* Keep it fixed if you want it to stay in place */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers it */
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    font-size: 28px;
+}
+input, select {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 26px;
+}
+button {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+button:hover {
+    background: #218838;
+}
+#player2-form {
+    display: none;
+}
+
+h2{
+margin-top: -2vh;
+}
+
+/* Add this to STYLE2.CSS */
+#player2-form {
+    display: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+  }
