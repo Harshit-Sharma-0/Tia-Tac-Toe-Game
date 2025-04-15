@@ -13,7 +13,7 @@ body
 }
 
 #myVideo {
-    position: fixed; /* Ensures video covers the screen */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -52,10 +52,10 @@ body
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed; /* Keep it fixed if you want it to stay in place */
+        position: fixed; 
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%); /* Centers it */
+        transform: translate(-50%, -50%);
         width: 100vw;
         height: 100vh;
     
@@ -106,7 +106,7 @@ color: #4e6f91;
  .bt:hover {
 
     transform: scale(1.1);
-    /* Increases size by 10% */
+  
 
 }
 
